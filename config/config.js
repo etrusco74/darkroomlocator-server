@@ -4,12 +4,12 @@ config.mongo = {};
 config.web = {};
 
 /** mongohq **/
-config.mongo.host = 'dharma.mongohq.com';       
+config.mongo.host = 'your_host';       
 config.mongo.port = 10012;
 
-config.mongo.db = 'darkroomlocator';
-config.mongo.user = 'etrusco'
-config.mongo.password = 'sandrino';
+config.mongo.db = 'your_db';
+config.mongo.user = 'your_user'
+config.mongo.password = 'your_password';
 
 config.web.port = process.env.PORT || 80;
 //config.web.ip = process.env.IP;
