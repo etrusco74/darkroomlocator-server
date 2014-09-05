@@ -17,7 +17,9 @@ We believe that this synergy can only be good for silver-based photography as a 
 ##  Tech Spec
 
 data base - mongoDB | mongoose.js | mongoHQ
+
 server side - node.js | express.js | heroku
+
 client side - jquery | backbone.js | twitter bootstrap | google maps
 
 ##  Licence
