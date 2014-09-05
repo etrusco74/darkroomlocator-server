@@ -5,7 +5,7 @@ config.web = {};
 
 /** mongohq **/
 config.mongo.host = 'your_host';       
-config.mongo.port = 10012;
+config.mongo.port = 00000;
 
 config.mongo.db = 'your_db';
 config.mongo.user = 'your_user'
