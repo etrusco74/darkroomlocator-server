@@ -14,6 +14,12 @@ The aim of the project is to facilitate and encourage the meeting between no dar
 
 We believe that this synergy can only be good for silver-based photography as a whole, enabling and facilitating the exchange of ideas, information and knowledge on techniques and practices related to developing and printing in the darkroom.
 
+##  Architecture
+
+You can find the architecture at this [url] (http://www.pensando.it/wp/2014/06/tech/anatomia-di-una-node-js-webapp-realizzata-con-mongodb-node-js-e-backbone-js)
+
+This post is in italian
+
 ##  Tech Spec
 
 data base - mongoDB | mongoose.js | mongoHQ
