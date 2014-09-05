@@ -1,0 +1,19 @@
+{
+    "type" : "mapsdashboard",
+    "lang" : "en",
+    "html_find" : "center",
+    "html_detail" : "detail",
+    "html_user" : "user",
+    "html_type" : "type",
+    "html_location" : "location",
+    "html_description" : "desc",
+    "html_note" : "note",
+    "html_tag" : "tag",
+    "html_date" : "date",
+    "html_website_pre" : "<b>go</b> to",
+    "html_website_in" : "website",
+    "html_email_pre" : "<b>contact</b> user by",
+    "html_email_in" : "email",
+    "init_lat": 51.51121389999999,
+    "init_lng": -0.11982439999997041
+}

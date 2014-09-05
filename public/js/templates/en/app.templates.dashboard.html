@@ -1,0 +1,126 @@
+<!-- Dashboard -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <ol class="breadcrumb">
+                <li><a href="#">home</a></li>
+                <li class="active">dashboard</li>
+            </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-1">
+            <!--Sidebar content-->
+            <div id="sidebar_content"></div>
+        </div>
+        <div class="col-lg-11">
+            <!--Body content-->
+            <h3 class="lead">Welcome back <span class="text-danger"><%= name %></span></h3>
+            <p>
+                Hi <b><%= name %></b>, this is your reserved area.
+            </p>
+            <p>
+                From here you can manage your <a href="#en/profile">profile</a> and your <a href="#en/report">reports</a>
+            </p>
+            <br>
+            <p>
+                <span class="label label-success">ATTENTION!</span>&nbsp;<b>Before you begin</b> I suggest you read the following tips on how to <b>optimize</b> the <b>navigation</b> and <b>management</b> of your recommendations
+            </p>
+
+            <div class="accordion" id="accordion">
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                            new report
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="accordion-body collapse in">
+                        <div class="accordion-inner">
+                            <p>To insert a report you must first <b>insert the address</b> of your darkroom, from the drop-down menu automatically proposed</p>
+                            <p>Then select the <b>type</b> of report you want to do from the proposed</p>
+                            <p>Enter a short description in the <b>description</b> field (Ex: my private darkroom) and then a more detailed description in the <b>notes</b> field</p>
+                            <p><span class="label label-danger">IMPORTANT</span> The inclusion of field notes is very important because this is then derived <b>tags</b> (keywords) of your report</p>
+                            <p>The tags will be used by the <b>search engine</b> darkroom to perform searches more accurate</p>
+                            <p>Therefore it is very important to include a <b>detailed description</b> of his own darkroom (Ex: Darkroom private garage 35mm medium format and large format black and white)</p>
+                            <p><span class="label label-danger">IMPORTANT</span> Remember, you can <b>manually move the icon</b> to make a selection of the finest location on the map</p>
+                            <p>At this point, only if you want, you can enter your <b>email address</b> and your <b>website</b> to make sure that other users can contact you if you want to share your space with other photographers</p>
+                            <p><span class="label label-danger">IMPORTANT</span> The <b>e-mail</b> and the <b>website</b> will be displayed in search results if you'll be to <b>include</b> them in this phase</p>
+                            <p><span class="label label-info">MEMO</span> To insert a new report go to this <a href="#en/report">link</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                            edit and delete reports
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                            <div id="container">
+                                <p>You can <b>modify</b> all the data in your reporting (including dragging the icon on the map), at any time, even after a long time</p>
+                                <p>you can also <b>delete</b> your report (or your reports)</p>
+                                <p><span class="label label-danger">IMPORTANT</span> The delete operation is <b>irreversible</b></p>
+                                <p><span class="label label-info">MEMO</span> To edit or delete a report go to this <a href="#en/report">link</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                            manage profile
+                        </a>
+                    </div>
+                    <div id="collapseThree" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                            <div id="container">
+                                <ul class="list-unstyled">
+                                    <p>On your personal account (profile) you can do the following operation:</p>
+                                    <p>
+                                    <ul>
+                                        <li><b>edit</b> profile data - <span class="label label-info">MEMO</span> go to this <a href="#en/profile">link</a></li>
+                                        <li><b>delete</b> profile data - <span class="label label-info">MEMO</span> go to this <a href="#en/profile">link</a></li>
+                                        <li><b>change</b> personal password - <span class="label label-info">MEMO</span> go to this <a href="#en/password">link</a></li>
+                                        <li><b>request</b> for a new password in case you had forgotten - <span class="label label-info">MEMO</span> go to this <a href="#en/resend">link</a></li>
+                                    </ul>
+                                    </p>
+                                    <p><span class="label label-danger">IMPORTANT</span> The delete operation is <b>irreversible</b></p>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                            search engine
+                        </a>
+                    </div>
+                    <div id="collapseFour" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                            <div id="container">
+                                <ul class="list-unstyled">
+                                    <p>The search engine is a "<b>public</b>" feature that does not require access to the private area</p>
+                                    <p>Through this engine you can <b>search for darkrooms</b> (or other types of reports) that best meet your search criteria</p>
+                                    <p>These criteria are :</p>
+                                    <p>
+                                    <ul>
+                                        <li><b>Where?</b> only mandatory field, the "spatial" starting point of research</li>
+                                        <li><b>Within?</b> optional, enlarges (or shrinks) spatial research of reports</li>
+                                        <li><b>What?</b> optional, allows you to enter keywords (tags) to improve research</li>
+                                        <li><b>Which?</b> optional, allows filtering by reports type</li>
+                                    </ul>
+                                    </p>
+                                    <p><span class="label label-danger">IMPORTANT</span> The results are always shown on <b>maps</b></p>
+                                    <p><span class="label label-info">MEMO</span> to view the search engine darkrooms access to this <a href="#en/mapdashboard">link</a></p>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

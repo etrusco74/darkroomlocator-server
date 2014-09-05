@@ -1,0 +1,16 @@
+{
+    "type" : "login",
+    "lang"  : "en",
+    "form_messages" : {
+            "username": {
+                "required": "Required field",
+                "maxlength": "Maximum 20 characters"
+            },
+            "password": {
+                "required": "Required field",
+                "maxlength": "Maximum 12 characters"
+            }
+    },
+    "label_button" : "close",
+    "error_message" : "There has been an error"
+}

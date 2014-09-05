@@ -1,0 +1,29 @@
+{
+    "type": "profile",
+    "lang" : "de",
+    "form_messages" : {
+        "first_name": "Pflichtfeld",
+        "last_name": "Pflichtfeld",
+        "email": {
+            "required": "Pflichtfeld",
+            "email": "Gültige Emailadresse einfügen"
+        }
+    },
+    "header_confirm_upd_message" : "Profiländerungen bestätigen?",
+    "body_confirm_upd_message" : "Profiländerungen bestätigen?",
+
+    "header_success_upd_message" : "Dein Profil wurde erfolgreich geändert",
+    "body_success_upd_message" : "Dein Benutzerprofil wurde erfolgreich geändert",
+
+    "header_confirm_del_message" : "Löschen des Profils bestätigen",
+    "body_confirm_del_message" : "Löschen des Profils bestätigen? Achtung dieser Vorgang kann nicht rückgängig gemacht werden!",
+
+    "header_success_del_message" : "Profil erfolgreich gelöscht",
+    "body_success_del_message" : "Dein Profil wurde erfolgreich gelöscht. Danke dass du darkroom locator benutzt hast.",
+
+    "confirm_button" : "Bestätigen",
+    "cancel_button" : "Löschen",
+    "label_button" : "Schliessen",
+
+    "error_message" : "Ein Fehler ist aufgetreten"
+}

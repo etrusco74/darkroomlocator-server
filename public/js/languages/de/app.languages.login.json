@@ -1,0 +1,16 @@
+{
+    "type": "login",
+    "lang" : "de",
+    "form_messages" : {
+        "username": {
+            "required": "Pflichtfeld",
+            "maxlength": "Maximal 20 Zeichen"
+        },
+        "password": {
+            "required": "Pflichtfeld",
+            "maxlength": "Maximal 12 Zeichen"
+        }
+    },
+    "label_button" : "Schliessen",
+    "error_message" : "Ein Fehler ist aufgetreten"
+}

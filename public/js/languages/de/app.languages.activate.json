@@ -1,0 +1,8 @@
+{
+    "type": "activate",
+    "lang" : "de",
+    "header_activate_message" : "Aktivierung erfolgreich",
+    "body_activate_message" : "Benutzer wurde erfolgreich aktiviert, Zugang zum System ist jetzt möglich",
+    "label_button" : "Schliessen",
+    "error_message" : "Ein Fehler ist aufgetreten"
+}

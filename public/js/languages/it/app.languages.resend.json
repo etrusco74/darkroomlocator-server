@@ -1,0 +1,21 @@
+{
+    "type": "resend",
+    "lang" : "it",
+    "form_messages" : {
+        "email": {
+            "required": "Campo obbligatorio",
+            "email": "Inserisci una email valida"
+        }
+    },
+    "header_confirm_upd_message" : "Nuova password",
+    "body_confirm_upd_message" : "Confermi di voler ricevere una nuova password?",
+
+    "header_success_upd_message" : "Nuova password inviata con successo",
+    "body_success_upd_message" : "Controlla la tua posta, a breve dovresti ricevere una mail con la nuova password per accedere al sistema",
+
+    "confirm_button" : "conferma",
+    "cancel_button" : "annulla",
+    "label_button" : "chiudi",
+
+    "error_message" : "Si è verificato un errore"
+}

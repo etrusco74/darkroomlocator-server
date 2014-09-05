@@ -1,0 +1,9 @@
+{
+    "type": "mapsidebar",
+    "lang" : "en",
+    "form_messages" : {
+        "geocomplete": "Required field"
+    },
+    "label_button" : "close",
+    "error_message_type" : "There was an error while loading types"
+}

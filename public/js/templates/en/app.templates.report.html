@@ -1,0 +1,153 @@
+<!-- Report -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <ol class="breadcrumb">
+                <li><a href="#">home</a></li>
+                <li class="active">report</li>
+            </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-1">
+            <!--Sidebar content-->
+            <div id="sidebar_content"></div>
+        </div>
+
+        <div class="col-lg-11">
+            <!--Body content-->
+            <h3 class="lead">Manage your <span id='redcolor'>reports</span></h3>
+
+            <div class="row">
+
+                <div class="col-lg-3">
+
+                    <h5>your reports</h5>
+                    <ul class="nav bs-sidenav" id="reportList">
+                    </ul>
+                    <br>
+                    <button type="button" id="newReportButton" class="btn btn-warning btn-block">new reports</button><br>
+                    <button type="button" id="shareFbButton" class="btn btn-primary btn-block">share on facebook</button><br>
+                    <button type="button" id="shareTwitterButton" class="btn btn-info btn-block">share on twitter</button><br>
+                    <button type="button" id="sharePermaButton" class="btn btn-default btn-block">permalink</button><br>
+                    <h5>your images</h5>
+                    <button type="button" id="imgButton" class="btn btn-success">upload</button>
+                    <button type="button" id="imgButtonDel" class="btn btn-danger">delete</button><br><br>
+                    <div id='imagesUploaded'></div>
+
+                </div>
+
+                <div class="col-lg-3">
+
+                    <div class="alert alert-info fade in">
+                        <button type="button" class="close" data-dismiss="alert">×</button>
+                        Pssss ... remember you can manually <b>move</b> the icon to make a <b>finest</b> selection of the location on the map.
+                    </div>
+
+                    <form id="reportForm" method="post">
+
+                        <div id='reportfield'>
+                            <input type='text' name='_id' id='_id' placeholder="id" class="form-control" readonly /><br/>
+                            <input name="geocomplete_report" id="geocomplete_report" type="text" placeholder="Insert an address" value="" size="50" class="form-control" /><br/>
+                            <select name="reportTypes" id="reportTypes" class="form-control">
+                                <option> -- report type -- </option>
+                            </select><br/>
+                            <input type="text" name="description" id="description" value="" placeholder="Description" class="form-control"/><br/>
+                            <textarea name="note" id="note" rows="3" placeholder="Note" class="form-control"></textarea><br/>
+                            <input type="text" name="contact_email" id="contact_email" placeholder="contact email" value="" class="form-control" /><br/>
+                            <input type="text" name="website" id="website" placeholder="your website" value="" class="form-control" /><br/>
+                        </div>
+
+                        <div class="accordion" id="accordion2">
+                            <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                                        tag
+                                    </a>
+                                </div>
+                                <div id="collapseOne" class="accordion-body collapse in">
+                                    <div class="accordion-inner">
+                                        <span id="tag">describe very well your message in the <b>notes</b> field in order to generate the <b>tags</b> and make your message easily <b>traceable</b></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                                        spatial data
+                                    </a>
+                                </div>
+                                <div id="collapseTwo" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        <div id="container">
+                                            address <span class="text-muted" id="formatted_address" data-geo="formatted_address"></span>
+                                            country <span class="text-muted" id="country" data-geo="country"></span>
+                                            abbr <span class="text-muted" id="country_short" data-geo="country_short"></span>
+                                            region <span class="text-muted" id="administrative_area_level_1" data-geo="administrative_area_level_1"></span>
+                                            province <span class="text-muted" id="administrative_area_level_2" data-geo="administrative_area_level_2"></span>
+                                            postal code <span class="text-muted" id="postal_code" data-geo="postal_code"></span>
+                                            lat <span class="text-muted" id="lat" data-geo="lat"></span>
+                                            lng <span class="text-muted" id="lng" data-geo="lng"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id='buttonfield'>
+                            <button type="submit" id="reportButton" class="btn btn-success btn-block">save</button><br>
+                            <button type="button" id="deleteReportButton" class="btn btn-danger btn-block">delete</button>
+                        </div>
+                        <br>
+
+                    </form>
+
+                    <!-- Modal perma -->
+                    <div class="modal fade" id="myModalPerma">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3 class="modal-title"><span id="titlePerma"></span></h3>
+                                </div>
+                                <div class="modal-body">
+                                    <span id="bodyPerma"></span>
+                                    <br><br>
+                                    <textarea class="form-control" id="linkPerma" rows="1" onclick="this.select()"></textarea>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-info" data-dismiss="modal">close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal images -->
+                    <div class="modal fade" id="myModalImages">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3 class="modal-title"><span id="titleImages"></span></h3>
+                                </div>
+                                <div class="modal-body">
+                                    <span id="bodyImages"></span>
+                                    <br><br>
+                                    <div id="my-dropzone" class="dropzone"></div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-info" data-dismiss="modal" id="imgButtonClose">close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6">
+                    <div id="map_canvas_report" class="map_canvas_report"></div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>

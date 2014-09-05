@@ -1,0 +1,30 @@
+{
+    "type": "profile",
+    "lang" : "en",
+    "form_messages" : {
+        "first_name": "Required field",
+        "last_name": "Required field",
+        "email": {
+            "required": "Required field",
+            "email": "Insert a valid email"
+        }
+    },
+    "header_confirm_upd_message" : "Confirm that you want to update your profile?",
+    "body_confirm_upd_message" : "Confirm that you want to update your profile?",
+
+    "header_success_upd_message" : "Profile updated successfully",
+    "body_success_upd_message" : "Profile updated successfully",
+
+    "header_confirm_del_message" : "Sure you want to delete your profile?",
+    "body_confirm_del_message" : "Sure you want to delete your profile? Attention, the operation is not reversible!",
+
+    "header_success_del_message" : "Profile deleted successfully",
+    "body_success_del_message" : "Profile deleted successfully, thank you for using darkroom locator.",
+
+    "confirm_button" : "confirm",
+    "cancel_button" : "cancel",
+    "label_button" : "close",
+
+    "error_message" : "There has been an error"
+
+}

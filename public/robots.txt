@@ -1,0 +1,3 @@
+user-agent: *
+
+sitemap: http://www.darkroomlocator.com/sitemap

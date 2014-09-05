@@ -1,0 +1,126 @@
+<!-- Dashboard -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <ol class="breadcrumb">
+                <li><a href="#">home</a></li>
+                <li class="active">dashboard</li>
+            </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-1">
+            <!--Sidebar content-->
+            <div id="sidebar_content"></div>
+        </div>
+        <div class="col-lg-11">
+            <!--Body content-->
+            <h3 class="lead">Willkommen zurück <span class="text-danger"><%= name %></span></h3>
+            <p>
+                Hallo <b><%= name %></b>, Dies ist eine privater Benutzerbereich.
+            </p>
+            <p>
+                Hier kannst du dein <a href="#de/profile">Profil</a> und deine <a href="#de/report">Einträge</a> verwalten.
+            </p>
+            <br>
+            <p>
+                <span class="label label-success">ACHTUNG!</span>&nbsp;<b>Bevor du startest</b> empfehle ich dir, die Informationen unten zu lesen wie du die <b>Navigation optimieren</b> und deine <b>Einträge verwalten</b> kannst.
+            </p>
+
+            <div class="accordion" id="accordion">
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                            Eintrag einfügen
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="accordion-body collapse in">
+                        <div class="accordion-inner">
+                            <p>Um einen Eintrag einzufügen musst du als erstes <b>die Adresse</b> deiner Dunkelkammer aus dem Dropdownmenu auswählen.</p>
+                            <p>Dann wählst du den <b>Typ</b> des Eintrags, den du einfügen willst, aus den Vorschlägen aus.</p>
+                            <p>Füge eine kurze Beschreibung im Feld <b>Beschreibung</b> ein (Beispiel : Meine Dunkelkammer) und dann eine detailierte Beschreibung im Feld <b>Notizen.</b></p>
+                            <p><span class="label label-danger">WICHTIG</span> Die Einträge im Feld Notizen sind sehr wichtig, da darauss die <b>Tags</b> (Schlüsselwörter) deines Eintrags generiert werden.</p>
+                            <p>Die Tags werden von der <b>Suchmaschine</b> verwendet, um die Suche zu verfeinern.</p>
+                            <p>Daher ist eine <b>detailierte Beschreibung</b> der eigenen Dunkelkammer sehr wichtig (Beispiel: Private Dunkelkammer in Garage. Kleinbild, Mittelformat und Grossformat Schwarz-Weiss)</p>
+                            <p><span class="label label-danger">WICHTIG</span> Um die Auswahl auf der Karte zu verfeinern, kann das <b> Symbol manuell verschoben </b> werden. </p>
+                            <p>Nun kannst du deine <b>Emailadresse</b> und deine <b>Webseite</b> angeben. So können dich andere Nutzer kontaktieren. Diese Angaben sind nur notwendig, wenn du deinen Raum mit anderen Fotografen teilen möchtest.</p>
+                            <p><span class="label label-danger">WICHTIG</span> Die <b>Emailadresse und die Webseite</b> werden in den Suchresultaten nur angezeigt, <b>wenn du sie jetzt einfügst.</b></p>
+                            <p><span class="label label-info">MEMO</span> Um einen Eintrag einzufügen, folge diesem <a href="#de/report">Link</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                            Ändern und Löschen eines Eintrags
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                            <div id="container">
+                                <p>Deinen Eintrag kannst du jederzeit <b>ändern</b> </p>
+                                <p>Du kannst deinen Eintrag (oder deine Einträge) jederzeit <b>löschen</b></p>
+                                <p><span class="label label-danger">WICHTIG</span> Das Löschen kann <b>nicht rückgängig </b> gemacht werden!</p>
+                                <p><span class="label label-info">MEMO</span> Um einen Eintrag zu ändern oder zu löschen, folge diesem <a href="#de/report">Link</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                            Profilverwaltung
+                        </a>
+                    </div>
+                    <div id="collapseThree" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                            <div id="container">
+                                <ul class="list-unstyled">
+                                    <p>In deinem Benutzerkonto (Profil) kannst du Folgendes tun:</p>
+                                    <p>
+                                        <ul>
+                                            <li>Deine Profildaten <b>ändern</b> - <span class="label label-info">MEMO</span> Folge diesem <a href="#de/profile">Link</a></li>
+                                            <li><b>Löschen</b> deiner Profildaten - <span class="label label-info">MEMO</span> Folge diesem <a href="#de/profile">Link</a></li>
+                                            <li>Dein persönliches Passwort <b>ändern</b> - <span class="label label-info">MEMO</span> Folge diesem <a href="#de/password">Link</a></li>
+                                            <li>Ein <b>neues Passwort</b> beantragen - <span class="label label-info">MEMO</span> Folge diesem <a href="#de/resend">Link</a></li>
+                                        </ul>
+                                    </p>
+                                    <p><span class="label label-danger">WICHTIG</span> Das Löschen von Daten kann <b>nicht rückgängig</b> gemacht werden.</p>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                            Suchmaschine
+                        </a>
+                    </div>
+                    <div id="collapseFour" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                            <div id="container">
+                                <ul class="list-unstyled">
+                                    <p>Die Suchfunktion ist "<b>öffentlich</b>". Das bedeutet, dass sie auch  ohne Login genutzt werden kann.</p>
+                                    <p>Über das Suchformular kannst du die <b>Dunkelkammer suchen</b>, die am besten deinen Suchkriterien entsprechen. Auch ander Arten von Einträge können über diese Funktion gesucht werden.</p>
+                                    <p>Mögliche Suchkriterien sind:</p>
+                                    <p>
+                                        <ul>
+                                            <li><b>Wo?</b> Einziges Pflichtfeld.</li>
+                                            <li><b>Im Umkreis von?</b> Optional. Vergrössert (oder verkleinert) den Suchradius.</li>
+                                            <li><b>Was?</b> Optional. Ermöglicht die Eingabe von Schlüsselworten (Tag), um die Suche zu verbessern.</li>
+                                            <li><b>Welche?</b> Optional. Ermöglicht ein Filtern der Einträge nach Typ.</li>
+                                        </ul>
+                                    </p>
+                                    <p><span class="label label-danger">WICHTIG</span> Die Resultate werden immer auf einer <b>Karte</b> angezeigt.</p>
+                                    <p><span class="label label-info">MEMO</span> Folge diesem <a href="#de/mapdashboard">Link</a> um nach Dunkelkammern zu suchen.</p>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

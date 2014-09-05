@@ -1,0 +1,85 @@
+{
+    "type": "report",
+    "lang" : "it",
+    "form_messages" : {
+        "geocomplete_report": "Campo obbligatorio",
+        "reportTypes": "Campo obbligatorio",
+        "description": "Campo obbligatorio",
+        "contact_email":{
+            "email": "Inserisci una email valida"
+        },
+        "website": {
+            "url": "Inserisci un url valido"
+        }
+    },
+    "tag_desc" : "descrivi bene la tua segnalazione nel campo <b>note</b> così da generare dei <b>tag</b> e rendere la tua segnalazione facilmente <b>rintracciabile</b>",
+    "no_report_desc" : "non hai inserito ancora nessuna segnalazione",
+
+    "header_confirm_ins_message" : "Confermi di voler inserire la seguente segnalazione?",
+    "body_confirm_ins_message" : "Confermi di voler inserire la seguente segnalazione?",
+
+    "header_success_ins_message" : "Segnalazione inserita con successo.",
+    "body_success_ins_message" : "Segnalazione inserita con successo. Ti ricordiamo che puoi spostare l'icona manualmente per effettuare una selezione più fine della posizione sulla mappa.",
+
+    "header_confirm_del_message" : "Confermi di voler cancellare la segnalazione?",
+    "body_confirm_del_message" : "Confermi di voler cancellare la segnalazione? Attenzione, l'operazione sarà irreversibile!",
+
+    "header_success_del_message" : "Segnalazione cancellata con successo",
+    "body_success_del_message" : "La tua segnalazione è stata cancellata con successo",
+
+    "delete_header_error_message" : "Ops!",
+    "delete_body_error_message" : "Selezionare prima una segnalazione da cancellare",
+
+    "confirm_button" : "conferma",
+    "cancel_button" : "annulla",
+    "label_button" : "chiudi",
+
+    "error_message" : "Si è verificato un errore",
+    "error_message_type" : "Si è verificato un errore in fase di caricamento dei tipi",
+
+    "fb_connect_url" : "http://connect.facebook.net/it_IT/all.js",
+    "fb_app_id" :"183597438474012",
+    "fb_channel_url" : "http://www.darkroomlocator.com",
+    "fb_name": "darkroom locator",
+    "fb_caption": "find and share darkrooms",
+    "fb_description": "Ho inserito questa segnalazione su darkroom locator : ",
+    "fb_href": "http://www.darkroomlocator.com/#!it/mapdashboard/id/",
+    "fb_src": "http://www.darkroomlocator.com/css/img/drl_white_bkg_only_logo_380x380.png",
+    "fb_action_links_text" : "darkroomlocator",
+    "fb_action_links_href" : "http://www.darkroomlocator.com",
+    "user_prompt_message": "Condividi la tua camera oscura con darkroom locator",
+
+    "fb_header_error_message" : "Ops!",
+    "fb_body_error_message" : "Selezionare prima una segnalazione da condividere su facebook",
+
+    "bitly_login" : "etrusco74",
+    "bitly_apikey" : "R_e25e854751ba291c13b0ebdaf5c5b528",
+
+    "twitter_url" : "http://twitter.com/share",
+    "twitter_long_url" : "http://www.darkroomlocator.com/#!it/mapdashboard/id/",
+    "twitter_text" : "Ho inserito questa segnalazione su darkroom locator : ",
+    "twitter_hash" : "darkroomlocator, analogicait",
+
+    "twitter_header_error_message" : "Ops!",
+    "twitter_body_error_message" : "Selezionare prima una segnalazione da condividere su twitter",
+
+    "perma_header_message" : "Ottieni il permalink della tua segnalazione",
+    "perma_body_message" : "Questo è il permalink (link permanente ed univoco) della tua segnalazione, puoi copiarlo ed incollarlo dove vuoi (sito, blog, social network, ...) per condividere con tutti i dati della tua camera oscura",
+    "perma_header_error_message" : "Ops!",
+    "perma_body_error_message" : "Selezionare prima una segnalazione per ottenerne il permalink",
+
+    "image_header_message" : "Gestione immagini",
+    "image_body_message" : "Da questo pannello potrai gestire le immagini della tua segnalazione. Ricorda, puoi caricare al massimo 5 immagini di 1 Mb l'una",
+    "image_header_error_message" : "Ops!",
+    "image_body_error_message" : "Selezionare prima una segnalazione per gestirne le immagini",
+
+    "image_header_success_del_message" : "Immagine cancellata con successo",
+    "image_body_success_del_message" : "La tua immagine è stata cancellata con successo",
+
+    "image_header_confirm_del_all_message" : "Confermi di voler cancellare tutte le immagini?",
+    "image_body_confirm_del_all_message" : "Confermi di voler cancellare tutte le immagini? Attenzione, l'operazione sarà irreversibile!",
+
+    "image_header_success_del_all_message" : "Immagini cancellate con successo",
+    "image_body_success_del_all_message" : "Le tue immagini sono state cancellate con successo"
+}
+

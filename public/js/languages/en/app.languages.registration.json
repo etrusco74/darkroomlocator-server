@@ -1,0 +1,34 @@
+{
+    "type": "registration",
+    "lang" : "en",
+    "form_messages" : {
+        "first_name": "Required field",
+        "last_name": "Required field",
+        "username": {
+            "required": "Required field",
+            "check_username": "Are only allowed uppercase and lowercase letters, numbers and the following characters ._-",
+            "maxlength": "Maximum 20 characters",
+            "minlength" : "At least 3 characters"
+        },
+        "password": {
+            "required": "Required field",
+            "check_password": "Are only allowed uppercase and lowercase letters, numbers and the following characters @!$%._-",
+            "maxlength": "Maximum 12 characters",
+            "minlength" : "At least 4 characters"
+        },
+        "repassword": {
+            "required": "Required field",
+            "maxlength": "Maximum 12 characters",
+            "equalTo": "Passwords do not match"
+        },
+        "email": {
+            "required": "Required field",
+            "email": "Insert a valid email"
+        },
+        "agree": "Accept our privacy policy"
+    },
+    "header_registration_message" : "You have registered successfully",
+    "body_registration_message" : "Check your mail service, shortly you must receive an email with instructions to activate your account",
+    "label_button" : "close",
+    "error_message" : "There has been an error"
+}

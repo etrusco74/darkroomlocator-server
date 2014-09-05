@@ -1,0 +1,21 @@
+{
+    "type": "resend",
+    "lang" : "en",
+    "form_messages" : {
+        "email": {
+            "required": "Required field",
+            "email": "Insert a valid email"
+        }
+    },
+    "header_confirm_upd_message" : "New password",
+    "body_confirm_upd_message" : "Confirm that you want to receive a new password?",
+
+    "header_success_upd_message" : "New password sent succesfully",
+    "body_success_upd_message" : "Check your mail service, shortly you must receive an email with your new password",
+
+    "confirm_button" : "confirm",
+    "cancel_button" : "cancel",
+    "label_button" : "close",
+
+    "error_message" : "There has been an error"
+}

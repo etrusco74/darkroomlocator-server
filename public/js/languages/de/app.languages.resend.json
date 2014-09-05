@@ -1,0 +1,21 @@
+{
+    "type": "resend",
+    "lang" : "de",
+    "form_messages" : {
+        "email": {
+            "required": "Pflichtfeld",
+            "email": "Gültige Emailadresse einfügen"
+        }
+    },
+    "header_confirm_upd_message" : "Neues Passwort",
+    "body_confirm_upd_message" : "Bestätigst du, dass du ein neues Passwort erhalten möchtest?",
+
+    "header_success_upd_message" : "Neues Passwort wurde erfolgreich versandt.",
+    "body_success_upd_message" : "Cberprüfe deinen Posteingang. Du wirst in Kürze eine Email mit dem neuen Passwort erhalten.",
+
+    "confirm_button" : "Bestätigen",
+    "cancel_button" : "Löschen",
+    "label_button" : "Schliessen",
+
+    "error_message" : "in Fehler ist aufgetreten"
+}

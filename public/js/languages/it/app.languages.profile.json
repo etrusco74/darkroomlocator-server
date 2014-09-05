@@ -1,0 +1,29 @@
+{
+    "type": "profile",
+    "lang" : "it",
+    "form_messages" : {
+        "first_name": "Campo obbligatorio",
+        "last_name": "Campo obbligatorio",
+        "email": {
+            "required": "Campo obbligatorio",
+            "email": "Inserisci una email valida"
+        }
+    },
+    "header_confirm_upd_message" : "Confermi di voler aggiornare il tuo profilo?",
+    "body_confirm_upd_message" : "Confermi di voler aggiornare il tuo profilo?",
+
+    "header_success_upd_message" : "Profilo aggiornato con successo",
+    "body_success_upd_message" : "Il tuo profilo utente è stato aggiornato con successo",
+
+    "header_confirm_del_message" : "Confermi di voler cancellare il tuo profilo?",
+    "body_confirm_del_message" : "Confermi di voler cancellare il tuo profilo? Attenzione, l'operazione sarà irreversibile!",
+
+    "header_success_del_message" : "Profilo cancellato con successo",
+    "body_success_del_message" : "Il tuo profilo è stato cancellato con successo, grazie per aver usato darkroom locator.",
+
+    "confirm_button" : "conferma",
+    "cancel_button" : "annulla",
+    "label_button" : "chiudi",
+
+    "error_message" : "Si è verificato un errore"
+}

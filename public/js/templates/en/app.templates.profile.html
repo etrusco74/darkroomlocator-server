@@ -1,0 +1,85 @@
+<!-- Profile -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <ol class="breadcrumb">
+                <li><a href="#">home</a></li>
+                <li class="active">profile</li>
+            </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-1">
+            <!--Sidebar content-->
+            <div id="sidebar_content"></div>
+        </div>
+        <div class="col-lg-11">
+            <!--Body content-->
+            <h3 class="lead">User Profile</h3>
+            <form id="profileForm" method="post" class="form-horizontal">
+
+                <div class="form-group">
+                    <div class="col-lg-4 col-offset-3">
+                        <div id="gravatar"></div>
+                    </div>
+                </div>
+
+                <div class="form-group has-warning">
+                    <label class="col-lg-3 control-label" for="_id">id</label>
+                    <div class="col-lg-4">
+                        <input type='text' class="form-control" name='_id' id='_id' readonly />
+                    </div>
+                </div>
+
+                <div class="form-group has-warning">
+                    <label class="col-lg-3 control-label" for="username">Username</label>
+                    <div class="col-lg-4">
+                        <input type='text' class="form-control" name='username' id='username' readonly />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-lg-3 control-label" for="first_name">First Name</label>
+                    <div class="col-lg-4">
+                        <input type='text' class="form-control" name='first_name' id='first_name' />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-lg-3 control-label" for="last_name">Last Name</label>
+                    <div class="col-lg-4">
+                        <input type='text' class="form-control" name='last_name' id='last_name' />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-lg-3 control-label" for="email">Email</label>
+                    <div class="col-lg-4">
+                        <input type='text' class="form-control" name='email' id='email' />
+                    </div>
+                </div>
+
+                <div class="form-group has-warning">
+                    <label class="col-lg-3 control-label" for="registration_date">Registration</label>
+                    <div class="col-lg-4">
+                        <input type='text' class="form-control" name='registration_date' id='registration_date' readonly />
+                    </div>
+                </div>
+
+                <div class="form-group has-warning">
+                    <label class="col-lg-3 control-label" for="login_date">Last Login</label>
+                    <div class="col-lg-4">
+                        <input type='text' class="form-control" name='login_date' id='login_date' readonly />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-lg-4 col-offset-3">
+                        <button type="submit" id="profileButton" class="btn btn-success btn-large col-lg-5">update</button>
+                        <button type="button" id="deleteProfileButton" class="btn btn-danger btn-large col-lg-5 col-offset-2">delete</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

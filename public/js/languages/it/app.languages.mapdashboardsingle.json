@@ -1,0 +1,22 @@
+{
+    "type": "mapdashboardsingle",
+    "lang" : "it",
+    "html_find" : "visualizza",
+    "html_user" : "utente",
+    "html_type" : "tipo",
+    "html_location" : "località",
+    "html_description" : "desc",
+    "html_note" : "note",
+    "html_tag" : "tag",
+    "html_date" : "data",
+    "html_website_pre" : "<b>vai</b> al",
+    "html_website_in" : "sitoweb",
+    "html_email_pre" : "<b>contatta</b> l'utente per",
+    "html_email_in" : "email",
+    "html_header_panel_right" : "Segnalazione",
+    "html_header_panel_bottom" : "Dettaglio",
+
+    "bitly_long_url" : "http://www.darkroomlocator.com/#!it/mapdashboard/id/",
+    "bitly_login" : "etrusco74",
+    "bitly_apikey" : "R_e25e854751ba291c13b0ebdaf5c5b528"
+}

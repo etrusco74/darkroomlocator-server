@@ -1,0 +1,34 @@
+{
+    "type": "registration",
+    "lang" : "de",
+    "form_messages" : {
+        "first_name": "Pflichtfeld",
+        "last_name": "Pflichtfeld",
+        "username": {
+            "required": "Pflichtfeld",
+            "check_username":"Erlaubt sind Gross- und Kleinbuchstaben, Zahlen sowie folgende Sonderzeichen ._-",
+            "maxlength": "Maximal 20 Zeichen",
+            "minlength" : "'Mindestens 3 Zeichen"
+        },
+        "password": {
+            "required": "Pflichtfeld",
+            "check_password": "Erlaubt sind Gross- und Kleinbuchstaben, Zahlen sowie folgende Sonderzeichen @!$%._-",
+            "maxlength": "Maximal 12 Zeichen",
+            "minlength" : "Mindestens 4 Zeichen"
+        },
+        "repassword": {
+            "required": "Pflichtfeld",
+            "maxlength": "Maximal 12 Zeichen",
+            "equalTo": "Die beiden Passwörter stimmen nicht überein"
+        },
+        "email": {
+            "required": "Pflichtfeld",
+            "email": "Gültige Emailadresse einfügen"
+        },
+        "agree": "Ich akzeptiere die Datenschutzrichtlinien."
+    },
+    "header_registration_message" : "Erfolgreiche Anmeldung",
+    "body_registration_message" : "Überprüfe deinen Posteingang. Du wirst in Kürze eine Email mit Anweisungen zur Aktivierung deines Kontos erhalten.",
+    "label_button" : "Schliessen",
+    "error_message" : "Ein Fehler ist aufgetreten"
+}

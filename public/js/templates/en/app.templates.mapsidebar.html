@@ -1,0 +1,51 @@
+<!-- map sidebar -->
+<div>
+    <form id="mapsidebarForm" method="post">
+        <p class="text-muted">
+            Where?<br>
+            <input name="geocomplete" id="geocomplete" type="text" placeholder="Enter an address" class="form-control" /><br>
+            Within...<br>
+            <select id="km" class="form-control">
+                <option value=1 selected>1 Km</option>
+                <option value=10>10 Km</option>
+                <option value=50>50 Km</option>
+                <option value=100>100 Km</option>
+                <option value=500>500 Km</option>
+                <option value=1000>1.000 Km</option>
+                <option value=0>All the world</option>
+            </select>
+        </p>
+        <p class="text-muted">
+            What?<br>
+            <input name="search" id="search" type="text" placeholder="Enter search tag" class="form-control" /><br>
+        </p>
+        <p class="text-muted">
+            Which?<br>
+            <select name="reportTypes" id="reportTypes" class="form-control">
+                <option value=0 selected> -- all -- </option>
+            </select>
+        </p>
+        <br>
+        <button type="submit" name="find" id="find" class="btn btn-success btn-block">find</button><br>
+        <button type="button" name="btnReset" id="btnReset" class="btn btn-danger btn-block">reset</button>
+        <br>
+        <p>Found <strong><span class="text-success" id="res_txt"></span></strong> reports</p>
+    </form>
+    <br>
+    <div id="container">
+        <span class="label label-info">Tech Partner</span><br><br>
+        <a href='http://www.ars-imago.com/' target='_blank'><img src='css/img/arsimago.gif'></a>
+    </div>
+    <br>
+    <!--
+    <br>
+    <br>
+    <div id="container">
+        <span class="muted" id="lat_txt"></span><br>
+        <span class="muted" id="lng_txt"></span><br>
+        <span class="muted" id="km_txt"></span><br>
+        <span class="muted" id="search_txt"></span><br>
+        <span class="muted" id="type_txt"></span>
+    </div>
+    -->
+</div>

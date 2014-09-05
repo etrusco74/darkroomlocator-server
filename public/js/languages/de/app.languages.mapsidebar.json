@@ -1,0 +1,9 @@
+{
+    "type": "mapsidebar",
+    "lang" : "de",
+    "form_messages" : {
+        "geocomplete": "Pflichtfeld"
+    },
+    "label_button" : "Schliessen",
+    "error_message_type" : "Beim Laden des Typs ist ein Fehler aufgetreten"
+}

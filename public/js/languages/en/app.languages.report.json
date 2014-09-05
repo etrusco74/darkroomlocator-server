@@ -1,0 +1,84 @@
+{
+    "type": "report",
+    "lang" : "en",
+    "form_messages" : {
+        "geocomplete_report": "Required field",
+        "reportTypes": "Required field",
+        "description": "Required field",
+        "contact_email":{
+            "email": "Insert a valid email"
+        },
+        "website": {
+            "url": "Insert a valid url"
+        }
+    },
+    "tag_desc" : "describe very well your message in the <b>notes</b> field in order to generate the <b>tags</b> and make your message easily <b>traceable</b>",
+    "no_report_desc" : "you have not entered yet reports",
+
+    "header_confirm_ins_message" : "Confirm that you wish to include the following report?",
+    "body_confirm_ins_message" : "Confirm that you wish to include the following report?",
+
+    "header_success_ins_message" : "Reporting inserted successfully.",
+    "body_success_ins_message" : "Reporting inserted successfully. We remind you that you can manually move the icon to make a finest selection of location on the map.",
+
+    "header_confirm_del_message" : "Sure you want to delete your report?",
+    "body_confirm_del_message" : "Sure you want to delete your report? Attention, the operation is not reversible!",
+
+    "header_success_del_message" : "Report deleted successfully",
+    "body_success_del_message" : "Report deleted successfully",
+
+    "delete_header_error_message" : "Ops!",
+    "delete_body_error_message" : "First select a report to delete",
+
+    "confirm_button" : "confirm",
+    "cancel_button" : "cancel",
+    "label_button" : "close",
+
+    "error_message" : "There has been an error",
+    "error_message_type" : "There was an error while loading types",
+
+    "fb_connect_url" : "http://connect.facebook.net/en_EN/all.js",
+    "fb_app_id" :"183597438474012",
+    "fb_channel_url" : "http://www.darkroomlocator.com",
+    "fb_name": "darkroom locator",
+    "fb_caption": "find and share darkrooms",
+    "fb_description": "I made this report on darkroom locator : ",
+    "fb_href": "http://www.darkroomlocator.com/#!en/mapdashboard/id/",
+    "fb_src": "http://www.darkroomlocator.com/css/img/drl_white_bkg_only_logo_380x380.png",
+    "fb_action_links_text" : "darkroomlocator",
+    "fb_action_links_href" : "http://www.darkroomlocator.com",
+    "user_prompt_message": "Share your darkroom with darkroom locator",
+
+    "fb_header_error_message" : "Ops!",
+    "fb_body_error_message" : "First select a report to share on facebook",
+
+    "bitly_login" : "etrusco74",
+    "bitly_apikey" : "R_e25e854751ba291c13b0ebdaf5c5b528",
+
+    "twitter_url" : "http://twitter.com/share",
+    "twitter_long_url" : "http://www.darkroomlocator.com/#!en/mapdashboard/id/",
+    "twitter_text" : "I made this report on darkroom locator : ",
+    "twitter_hash" : "darkroomlocator, analogicait",
+
+    "twitter_header_error_message" : "Ops!",
+    "twitter_body_error_message" : "First select a report to share on twitter",
+
+    "perma_header_message" : "Get permalink report",
+    "perma_body_message" : "This is the permalink (permanent and unique link) of your report, you can copy and paste it where you want (website, blog, social network, ...) to share with all your darkroom data",
+    "perma_header_error_message" : "Ops!",
+    "perma_body_error_message" : "First select a report to get permalink",
+
+    "image_header_message" : "Image Management",
+    "image_body_message" : "From this panel you can manage images for your report. Remember, you can upload up to 5 images, and each image should not exceed 1 Mb",
+    "image_header_error_message" : "Ops!",
+    "image_body_error_message" : "First select a report to manage images",
+
+    "image_header_success_del_message" : "Image successfully deleted",
+    "image_body_success_del_message" : "Your image has been deleted successfully",
+
+    "image_header_confirm_del_all_message" : "Sure you want to delete all images?",
+    "image_body_confirm_del_all_message" : "Sure you want to delete all images? Warning, the operation is irreversible!",
+
+    "image_header_success_del_all_message" : "Images deleted successfully",
+    "image_body_success_del_all_message" : "Your images have been deleted successfully"
+}

@@ -1,0 +1,19 @@
+{
+    "type": "mapdashboard",
+    "lang" : "de",
+    "html_find" : "zentren",
+    "html_detail" : "detail",
+    "html_user" : "Benutzer",
+    "html_type" : "Typ",
+    "html_location" : "Ort",
+    "html_description" : "desc",
+    "html_note" : "Notiz",
+    "html_tag" : "tag",
+    "html_date" : "Datum",
+    "html_website_pre" : "<b>gehe</b> zu",
+    "html_website_in" : "sitoweb",
+    "html_email_pre" : "<b>kontaktiere</b> Benutzer",
+    "html_email_in" : "email",
+    "init_lat": 50.8018548,
+    "init_lng": 10.65036950000001
+}

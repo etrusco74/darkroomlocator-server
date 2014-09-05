@@ -1,0 +1,34 @@
+{
+    "type": "registration",
+    "lang" : "it",
+    "form_messages" : {
+        "first_name": "Campo obbligatorio",
+        "last_name": "Campo obbligatorio",
+        "username": {
+            "required": "Campo obbligatorio",
+            "check_username":"Sono ammessi solo lettere maiuscole e minuscole, numeri ed i seguenti caratteri ._-",
+            "maxlength": "Massimo 20 caratteri",
+            "minlength" : "Almeno 3 caratteri"
+        },
+        "password": {
+            "required": "Campo obbligatorio",
+            "check_password": "Sono ammessi solo lettere maiuscole e minuscole, numeri ed i seguenti caratteri @!$%._-",
+            "maxlength": "Massimo 12 caratteri",
+            "minlength" : "Almeno 4 caratteri"
+        },
+        "repassword": {
+            "required": "Campo obbligatorio",
+            "maxlength": "Massimo 12 caratteri",
+            "equalTo": "Le due password non coincidono"
+        },
+        "email": {
+            "required": "Campo obbligatorio",
+            "email": "Inserisci una email valida"
+        },
+        "agree": "Accetta la nostra privacy policy"
+    },
+    "header_registration_message" : "Registrazione effettuata correttamente",
+    "body_registration_message" : "Controlla la tua posta, a breve dovresti ricevere una mail con le istruzioni per attivare il tuo account",
+    "label_button" : "chiudi",
+    "error_message" : "Si è verificato un errore"
+}

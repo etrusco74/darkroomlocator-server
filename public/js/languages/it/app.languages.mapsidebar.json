@@ -1,0 +1,9 @@
+{
+    "type": "mapsidebar",
+    "lang" : "it",
+    "form_messages" : {
+        "geocomplete": "Campo obbligatorio"
+    },
+    "label_button" : "chiudi",
+    "error_message_type" : "Si è verificato un errore in fase di caricamento dei tipi"
+}

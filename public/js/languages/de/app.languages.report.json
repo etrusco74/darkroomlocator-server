@@ -1,0 +1,85 @@
+{
+    "type": "report",
+    "lang" : "de",
+    "form_messages" : {
+        "geocomplete_report": "Pflichtfeld",
+        "reportTypes": "Pflichtfeld",
+        "description": "Pflichtfeld",
+        "contact_email":{
+            "email": "Gültige Emailadresse einfügen"
+        },
+        "website": {
+            "url": "Gültige url einfügen"
+        }
+    },
+    "tag_desc" : "Beschreibe deinen Eintrag möglichst genau im Feld <b>Notizen</b> so dass <b>tag</b> generiert werden und dein Eintrag einfach <b>gefunden</b> werden kann.",
+    "no_report_desc" : "Du hast noch keinen Eintrag eingefügt.",
+
+    "header_confirm_ins_message" : "Bestätigst du, dass du folgenden Eintrag einfügen willst?",
+    "body_confirm_ins_message" : "Bestätigst du, dass du folgenden Eintrag einfügen willst??",
+
+    "header_success_ins_message" : "Eintrag erfolgreich eingefügt.",
+    "body_success_ins_message" : "Eintrag erfolgreich eingefügt. Ti ricordiamo che puoi spostare l'icona manualmente per effettuare una selezione più fine della posizione sulla mappa.",
+
+    "header_confirm_del_message" : "Bestätigst du, dass du den Eintrag löschen willst?",
+    "body_confirm_del_message" : "estätigst du, dass du den Eintrag löschen willst? Achtung dieser Vorgang kann nicht rückgängig gemacht werden!",
+
+    "header_success_del_message" : "Eintrag erfolgreich gelöscht.",
+    "body_success_del_message" : "Dein Eintrag wurde erfolgreich gelöscht",
+
+    "delete_header_error_message" : "Ops!",
+    "delete_body_error_message" : "Bitte den zu löschenden Eintrag auswählen. ",
+
+    "confirm_button" : "Bestätigen",
+    "cancel_button" : "Löschen",
+    "label_button" : "Schliessen",
+
+    "error_message" : "Ein Fehler ist aufgetreten",
+    "error_message_type" : "Beim Laden des Typs ist ein Fehler aufgetreten",
+
+    "fb_connect_url" : "http://connect.facebook.net/de_DE/all.js",
+    "fb_app_id" :"183597438474012",
+    "fb_channel_url" : "http://www.darkroomlocator.com",
+    "fb_name": "darkroom locator",
+    "fb_caption": "find and share darkrooms",
+    "fb_description": "Ich habe diesen Eintrag bei darkroom locator eingefügt : ",
+    "fb_href": "http://www.darkroomlocator.com/#!de/mapdashboard/id/",
+    "fb_src": "http://www.darkroomlocator.com/css/img/drl_white_bkg_only_logo_380x380.png",
+    "fb_action_links_text" : "darkroomlocator",
+    "fb_action_links_href" : "http://www.darkroomlocator.com",
+    "user_prompt_message": "Teile deine Dunkelkammer mit darkroom locator",
+
+    "fb_header_error_message" : "Ops!",
+    "fb_body_error_message" : "Wähle den Eintrag aus, den du auf Facebook teilen möchtest. ",
+
+    "bitly_login" : "etrusco74",
+    "bitly_apikey" : "R_e25e854751ba291c13b0ebdaf5c5b528",
+
+    "twitter_url" : "http://twitter.com/share",
+    "twitter_long_url" : "http://www.darkroomlocator.com/#!de/mapdashboard/id/",
+    "twitter_text" : "Ich habe diesen Eintrag bei darkroom locator eingefügt : ",
+    "twitter_hash" : "darkroomlocator, analogicait",
+
+    "twitter_header_error_message" : "Ops!",
+    "twitter_body_error_message" : "Wähle den Eintrag aus, den du auf twitter teilen möchtest. ",
+
+    "perma_header_message" : "Link des Eintrags anzeigen",
+    "perma_body_message" : "Das ist der Link (der Link ändert nicht) zu deinem Eintrag. Du kannst ihn kopieren und einfügen wo du willst (Webseite, Blog, Social Network...) So kannst du deinen Dunkelkammerdaten mit allen teilen. ",
+    "perma_header_error_message" : "Ops!",
+    "perma_body_error_message" : "Wähle den Eintrag, für den du den Link erhalten möchtest",
+
+    "image_header_message" : "Bildverwaltung",
+    "image_body_message" : "Von diesem Panel können Sie Bilder für Ihren Bericht zu verwalten. Denken Sie daran, Sie können bis zu 5 Bilder hochladen auf, und jedes Bild sollte 1 MB nicht überschreiten",
+    "image_header_error_message" : "Ops!",
+    "image_body_error_message" : "Wählen Sie zunächst einen Bericht zur Verwaltung von Bildern",
+
+    "image_header_success_del_message" : "Bild erfolgreich gelöscht",
+    "image_body_success_del_message" : "Ihr Bild wurde erfolgreich gelöscht",
+
+    "image_header_confirm_del_all_message" : "Sicher, dass Sie alle Bilder löschen?",
+    "image_body_confirm_del_all_message" : "Sicher, dass Sie alle Bilder löschen? Warnung ist der Betrieb irreversible!",
+
+    "image_header_success_del_all_message" : "Bilder erfolgreich gelöscht",
+    "image_body_success_del_all_message" : "Ihre Bilder wurden erfolgreich gelöscht"
+}
+

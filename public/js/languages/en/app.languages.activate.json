@@ -1,0 +1,8 @@
+{
+    "type": "activate",
+    "lang" : "en",
+    "header_activate_message" : "User succesfully activated",
+    "body_activate_message" : "User succesfully activated, is now possible to log in",
+    "label_button" : "close",
+    "error_message" : "There has been an error"
+}

@@ -1,0 +1,126 @@
+<!-- Dashboard -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <ol class="breadcrumb">
+                <li><a href="#">home</a></li>
+                <li class="active">dashboard</li>
+            </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-1">
+            <!--Sidebar content-->
+            <div id="sidebar_content"></div>
+        </div>
+        <div class="col-lg-11">
+            <!--Body content-->
+            <h3 class="lead">Bentornato <span class="text-danger"><%= name %></span></h3>
+            <p>
+                Ciao <b><%= name %></b>, questa è la tua area riservata.
+            </p>
+            <p>
+                Da qui potrai gestire il tuo <a href="#it/profile">profilo</a> e le tue <a href="#it/report">segnalazioni</a>
+            </p>
+            <br>
+            <p>
+                <span class="label label-success">ATTENZIONE!</span>&nbsp;<b>Prima di iniziare</b> ti consiglio di leggere i seguenti consigli su come <b>ottimizzare</b> la <b>navigazione</b> e la <b>gestione</b> delle tue segnalazioni
+            </p>
+
+            <div class="accordion" id="accordion">
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                            inserimento segnalazione
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="accordion-body collapse in">
+                        <div class="accordion-inner">
+                            <p>Per inserire una segnalazione devi prima di tutto <b>inserire l'indirizzo</b> della tua camera oscura, dal menu a tendina proposto in automatico</p>
+                            <p>Poi seleziona il <b>tipo</b> di segnalazione che vuoi fare tra quelle proposte</p>
+                            <p>Inserisci una descrizione breve nel campo <b>descrizione</b> (Es : la mia camera oscura) e poi una descrizione più dettagliata nel campo <b>note</b></p>
+                            <p><span class="label label-danger">IMPORTANTE</span> L'inserimento nel campo note è molto importante perchè da questo vengono poi ricavati i <b>tag</b> (parole chiave) della tua segnalazione</p>
+                            <p>I tag verranno usati dal <b>motore di ricerca</b> delle camere oscure per effettuare delle ricerche più accurate</p>
+                            <p>Per questo è molto importante inserire una <b>descrizione dettagliata</b> della propria camera oscura (Es: Camera oscura privata in garage 35mm medio formato e grande formato bianco e nero)</p>
+                            <p><span class="label label-danger">IMPORTANTE</span> Ricorda che puoi <b>spostare l'icona manualmente</b> per effettuare una selezione più fine della posizione sulla mappa</p>
+                            <p>A questo punto, solo se lo vuoi, puoi inserire la tua <b>mail</b> ed il tuo <b>sito web</b> per far si che altri utenti possano contattarti qualora tu vogliare condividere con altri fotografi il tuo spazio</p>
+                            <p><span class="label label-danger">IMPORTANTE</span> La <b>mail ed il website</b> verranno visualizzati tra i risultati della ricerca solo se <b>sarai tu ad inserirli</b> in questa fase</p>
+                            <p><span class="label label-info">MEMO</span> Per inserire una segnalazione accedi a questo <a href="#it/report">link</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                            modifica e cancellazione segnalazioni
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                            <div id="container">
+                                <p>Puoi <b>modificare</b> tutti i dati della tua segnalazione (compreso il trascinamento dell'icona sulla mappa), in qualsiasi momento anche a distanza di tempo</p>
+                                <p>Puoi anche <b>cancellare</b> la tua segnalazione (o le tue segnalazioni)</p>
+                                <p><span class="label label-danger">IMPORTANTE</span> L'operazione di cancellazione sarà <b>irreversibile</b></p>
+                                <p><span class="label label-info">MEMO</span> Per modificare o cancellare una segnalazione accedi a questo <a href="#it/report">link</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                            gestione profilo
+                        </a>
+                    </div>
+                    <div id="collapseThree" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                            <div id="container">
+                                <ul class="list-unstyled">
+                                    <p>Sul tuo account personale (profilo) potrai fare le seguenti operazioni:</p>
+                                    <p>
+                                        <ul>
+                                            <li><b>modifica</b> dei dati del profilo - <span class="label label-info">MEMO</span> accedi a questo <a href="#it/profile">link</a></li>
+                                            <li><b>cancellazione</b> dei dati del profilo - <span class="label label-info">MEMO</span> accedi a questo <a href="#it/profile">link</a></li>
+                                            <li><b>modifica</b> della password personale - <span class="label label-info">MEMO</span> accedi a questo <a href="#it/password">link</a></li>
+                                            <li><b>richiesta</b> di una nuova password qualora l'avessi dimenticata - <span class="label label-info">MEMO</span> accedi a questo <a href="#it/resend">link</a></li>
+                                        </ul>
+                                    </p>
+                                    <p><span class="label label-danger">IMPORTANTE</span> L'operazione di cancellazione sarà <b>irreversibile</b></p>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                            motore di ricerca
+                        </a>
+                    </div>
+                    <div id="collapseFour" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                            <div id="container">
+                                <ul class="list-unstyled">
+                                    <p>Il modulo di ricerca è una funzionalità "<b>pubblica</b>" ossia una funzionalità che non richiede l'accesso all'area riservata</p>
+                                    <p>Attraverso questo modulo è possibile <b>ricercare le camere oscure</b> (o le altre tipologie di segnalazioni) che più soddisfano i vostri criteri di ricerca</p>
+                                    <p>Questi criteri sono :</p>
+                                    <p>
+                                        <ul>
+                                            <li><b>Dove?</b> unico campo obbligatorio, punto di partenza "spaziale" della ricerca</li>
+                                            <li><b>Nel raggio di?</b> facoltativo, allarga (o restringe) la ricerca spaziale delle segnalazioni</li>
+                                            <li><b>Cosa?</b> facoltativo, permette di inserire delle parole chiave (tag) per migliorare la ricerca</li>
+                                            <li><b>Quali?</b> facoltativo, permette di filtrare per tipologia di segnalazione</li>
+                                        </ul>
+                                    </p>
+                                    <p><span class="label label-danger">IMPORTANTE</span> I risultati vengono sempre mostrati su <b>mappe</b></p>
+                                    <p><span class="label label-info">MEMO</span> Per effettuare le ricerche di camere oscure accedi a questo <a href="#it/mapdashboard">link</a></p>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

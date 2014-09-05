@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <url>
+		<loc>http://www.darkroomlocator.com/#!it</loc>
+		<lastmod>2013-11-25T00:00:00+00:00</lastmod>
+		<changefreq>daily</changefreq>
+	</url>  
+	
+	<url>  
+		<loc>http://www.darkroomlocator.com/#!en</loc>
+		<lastmod>2013-11-25T00:00:00+00:00</lastmod>
+		<changefreq>daily</changefreq>
+	</url>  
+	
+	<url>    
+		<loc>http://www.darkroomlocator.com/#!de</loc>
+		<lastmod>2013-11-25T00:00:00+00:00</lastmod>
+		<changefreq>daily</changefreq>
+	</url>  
+	
+	<url>    
+		<loc>http://www.darkroomlocator.com/#!it/project</loc>
+		<lastmod>2013-11-25T00:00:00+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+	</url>  
+	
+	<url>    
+		<loc>http://www.darkroomlocator.com/#!en/project</loc>
+		<lastmod>2013-11-25T00:00:00+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+	</url>  
+	
+	<url>    
+		<loc>http://www.darkroomlocator.com/#!de/project</loc>
+		<lastmod>2013-11-25T00:00:00+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+	</url>  
+	
+	<url>    
+		<loc>http://www.darkroomlocator.com/#!it/credits</loc>
+		<lastmod>2013-11-25T00:00:00+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+	</url>  
+	
+	<url>    
+		<loc>http://www.darkroomlocator.com/#!en/credits</loc>
+		<lastmod>2013-11-25T00:00:00+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+	</url>  
+	
+	<url>    
+		<loc>http://www.darkroomlocator.com/#!de/credits</loc>
+		<lastmod>2013-11-25T00:00:00+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+	</url>  
+	
+	<url>    
+		<loc>http://www.darkroomlocator.com/#!it/mapdashboard</loc>
+		<lastmod>2013-11-25T00:00:00+00:00</lastmod>
+		<changefreq>daily</changefreq>
+	</url>  
+	
+	<url>    
+		<loc>http://www.darkroomlocator.com/#!en/mapdashboard</loc>
+		<lastmod>2013-11-25T00:00:00+00:00</lastmod>
+		<changefreq>daily</changefreq>
+	</url>  
+	
+	<url>    
+		<loc>http://www.darkroomlocator.com/#!de/mapdashboard</loc>
+		<lastmod>2013-11-25T00:00:00+00:00</lastmod>
+		<changefreq>daily</changefreq>
+    </url>
+    
+    <url>    
+		<loc>http://www.darkroomlocator.com/#!it/help</loc>
+		<lastmod>2013-11-25T00:00:00+00:00</lastmod>
+		<changefreq>daily</changefreq>
+	</url>  
+	
+	<url>    
+		<loc>http://www.darkroomlocator.com/#!en/help</loc>
+		<lastmod>2013-11-25T00:00:00+00:00</lastmod>
+		<changefreq>daily</changefreq>
+	</url>  
+	
+	<url>    
+		<loc>http://www.darkroomlocator.com/#!de/help</loc>
+		<lastmod>2013-11-25T00:00:00+00:00</lastmod>
+		<changefreq>daily</changefreq>
+    </url>
+    
+    <% for(var i=0; i<reports.length; i++) {%>
+    <url>    
+		<loc>http://www.darkroomlocator.com/#!it/mapdashboard/id/<%= reports[i]._id %></loc>
+		<lastmod><%= moment(reports[i].report_date).toISOString() %></lastmod>
+		<changefreq>daily</changefreq>
+    </url>
+    <% } %>
+    
+    <% for(var i=0; i<reports.length; i++) {%>
+    <url>    
+		<loc>http://www.darkroomlocator.com/#!en/mapdashboard/id/<%= reports[i]._id %></loc>
+		<lastmod><%= moment(reports[i].report_date).toISOString() %></lastmod>
+		<changefreq>daily</changefreq>
+    </url>
+    <% } %>
+    
+    <% for(var i=0; i<reports.length; i++) {%>
+    <url>    
+		<loc>http://www.darkroomlocator.com/#!de/mapdashboard/id/<%= reports[i]._id %></loc>
+		<lastmod><%= moment(reports[i].report_date).toISOString() %></lastmod>
+		<changefreq>daily</changefreq>
+    </url>
+    <% } %>
+    
+</urlset>

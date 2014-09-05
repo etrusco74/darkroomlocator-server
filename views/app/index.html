@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="darkroom locator" />
+    <meta name="description" content="darkroom locator, find and share darkrooms" />
+    <meta name="author" content="Alessandro De Marchi - ademarchi74@gmail.com" />
+    
+    <!-- css ext -->
+    <link rel="stylesheet"      href="css/ext/bootstrap.3.0.0.min.css" media="screen">
+    <link rel="stylesheet"      href="css/ext/bootstrap-glyphicons.css" media="screen">
+    <link rel="stylesheet"      href="css/ext/dropzone.css" media="screen">
+    <link rel="stylesheet"      href="css/ext/responsiveslides.css" media="screen">
+    <link rel="shortcut icon"   href="favicon.ico">
+    
+    <!-- css run -->
+    <link rel="stylesheet" href="css/app/style.css" type="text/css"  />
+
+    <title>darkroom locator - find and share darkrooms</title>
+
+</head>
+
+<body>
+    
+    <noscript>
+        <img src='css/img/logo.png' width='600'/><br>
+        &nbsp;&nbsp;I'm sorry, darkroom locator require <b>javascript enabled</b>
+    </noscript>
+    
+    <!-- page content -->
+    <div id="wrap">
+
+        <!-- navbar -->
+        <div id="navbar_content"></div>
+
+        <!-- content -->
+        <div id="content"></div>
+
+        <!-- push content -->
+        <div id="push"></div>
+
+    </div>
+
+    <!-- footer -->
+    <div id="footer_content"></div>
+
+    <!-- all javascript library include
+    ================================================== -->
+    <!-- js ext library -->
+    <script type="text/javascript" src="js/lib/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/lib/underscore-1.4.4.min.js"></script>
+    <script type="text/javascript" src="js/lib/backbone-1.0.0.min.js"></script>
+    <script type="text/javascript" src="js/lib/backbone.localStorage.min.js"></script>
+    <script type="text/javascript" src="js/lib/bootstrap.3.0.0.min.js"></script>
+    <script type="text/javascript" src="js/lib/oauth.js"></script>
+    <script type="text/javascript" src="js/lib/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="js/lib/md5.js"></script>
+    <script type="text/javascript" src="js/lib/jquery.gravatar.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
+    <script type="text/javascript" src="js/lib/jquery.geocomplete.min.js"></script>
+    <script type="text/javascript" src="js/lib/infobubble.js"></script>
+    <script type="text/javascript" src="js/lib/animatescroll.js"></script>
+    <script type="text/javascript" src="js/lib/moment-langs.min.js"></script>
+    <script type="text/javascript" src="js/lib/bootbox.min.js"></script>
+    <script type="text/javascript" src="js/lib/dropzone.min.js"></script>
+    <script type="text/javascript" src="js/lib/responsiveslides.min.js"></script>
+    <!-- app -->
+    <script type="text/javascript" src="js/app.min.js?v=008"></script>
+    <!-- router -->
+    <script type="text/javascript" src="js/routers/app.routers.router.min.js?v=003"></script>
+    <!-- model -->
+    <script type="text/javascript" src="js/models/app.models.language.min.js?v=001"></script>
+    <script type="text/javascript" src="js/models/app.models.token.min.js?v=001"></script>
+    <script type="text/javascript" src="js/models/app.models.user.min.js?v=001"></script>
+    <script type="text/javascript" src="js/models/app.models.type.min.js?v=001"></script>
+    <script type="text/javascript" src="js/models/app.models.report.min.js?v=001"></script>
+    <script type="text/javascript" src="js/models/app.models.image.min.js?v=001"></script>
+    <!-- collection -->
+    <script type="text/javascript" src="js/collections/app.collections.languages.min.js?v=001"></script>
+    <script type="text/javascript" src="js/collections/app.collections.tokens.min.js?v=001"></script>
+    <script type="text/javascript" src="js/collections/app.collections.users.min.js?v=001"></script>
+    <script type="text/javascript" src="js/collections/app.collections.types.min.js?v=001"></script>
+    <script type="text/javascript" src="js/collections/app.collections.reports.min.js?v=001"></script>
+    <script type="text/javascript" src="js/collections/app.collections.images.min.js?v=001"></script>
+    <!-- view -->
+    <script type="text/javascript" src="js/views/app.views.activate.min.js?v=004"></script>
+    <script type="text/javascript" src="js/views/app.views.credits.min.js?v=002"></script>
+    <script type="text/javascript" src="js/views/app.views.dashboard.min.js?v=001"></script>
+    <script type="text/javascript" src="js/views/app.views.error.min.js?v=001"></script>
+    <script type="text/javascript" src="js/views/app.views.footer.min.js?v=001"></script>
+    <script type="text/javascript" src="js/views/app.views.help.min.js?v=001"></script>
+    <script type="text/javascript" src="js/views/app.views.index.min.js?v=002"></script>
+    <script type="text/javascript" src="js/views/app.views.login.min.js?v=004"></script>
+    <script type="text/javascript" src="js/views/app.views.mapdashboard.min.js?v=008"></script>
+    <script type="text/javascript" src="js/views/app.views.mapdashboardsingle.min.js?v=002"></script>
+    <script type="text/javascript" src="js/views/app.views.mapsidebar.min.js?v=004"></script>
+    <script type="text/javascript" src="js/views/app.views.navbar.min.js?v=001"></script>
+    <script type="text/javascript" src="js/views/app.views.password.min.js?v=003"></script>
+    <script type="text/javascript" src="js/views/app.views.profile.min.js?v=003"></script>
+    <script type="text/javascript" src="js/views/app.views.project.min.js?v=002"></script>
+    <script type="text/javascript" src="js/views/app.views.registration.min.js?v=005"></script>
+    <script type="text/javascript" src="js/views/app.views.report.min.js?v=004"></script>
+    <script type="text/javascript" src="js/views/app.views.resend.min.js?v=003"></script>
+    <script type="text/javascript" src="js/views/app.views.sidebar.min.js?v=001"></script>
+    <script type="text/javascript" src="js/views/app.views.adlarge.min.js?v=001"></script>
+    <script type="text/javascript" src="js/views/app.views.admedium.min.js?v=001"></script>
+    <script type="text/javascript" src="js/views/app.views.adsmall.min.js?v=001"></script>
+
+    <script type="text/javascript">
+        $(function() {
+            if (checkBrowser()) {
+                if (checkCookie()) {
+                    app.utils.init(true);       /** www startup **/
+                }
+                else    {
+                    $("#content").append("<img src='css/img/logo.png' width='600'/>");
+                    alert("I'm sorry, darkroom locator requires that cookies are enabled.")
+                }
+            }
+            else    {
+                $("#content").append("<img src='css/img/logo.png' width='600'/>");
+                alert("I'm sorry, darkroom locator is not compliant with your IE version. Upgrade it or use another browser like Firefox, Chrome or Safari.")
+            }
+
+            //check for browser compatibility
+            function checkBrowser() {
+                var ver = -1; // Return value assumes failure.
+                var ret = true;
+                if (navigator.appName == 'Microsoft Internet Explorer')
+                {
+                    var ua = navigator.userAgent;
+                    var re  = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+                    if (re.exec(ua) != null)
+                        ver = parseFloat( RegExp.$1 );
+                }
+                if ( ver > -1 )     {
+                    if ( ver < 8.0 )
+                        ret = false;
+                }
+                return ret;
+            }
+
+            //check for coockie enabled
+            function checkCookie()  {
+                var cookieEnabled=(navigator.cookieEnabled)? true : false
+                if (typeof navigator.cookieEnabled=="undefined" && !cookieEnabled){
+                    document.cookie="testcookie";
+                    cookieEnabled=(document.cookie.indexOf("testcookie")!=-1)? true : false;
+                }
+                return (cookieEnabled) ? true : false;
+            }
+
+        });
+    </script>
+    
+    
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!-- Index -->
+<div class="container">
+    <div id="mycarousel" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#mycarousel" data-slide-to="1"></li>
+            <li data-target="#mycarousel" data-slide-to="2"></li>
+            <li data-target="#mycarousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+
+            <div class="item active">
+                <img src="css/img/logo.png" alt="">
+                <div class="carousel-caption">
+                    <p class="text-left"><a class="btn btn-info" href="#en/mapdashboard">search a darkroom</a></p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="css/img/en-slide-04.jpg" alt="">
+                <div class="carousel-caption">
+                    <p class="text-left"><a class="btn btn-danger" href="#en/project">View project details</a></p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="css/img/en-slide-02.jpg" alt="">
+                <div class="carousel-caption">
+                    <p class="text-left"><a class="btn btn-success" href="#en/login">sign in and manage your reports</a></p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="css/img/en-slide-03.jpg" alt="">
+                <div class="carousel-caption">
+                    <p class="text-left"><a class="btn btn-warning" href="#en/registration">sign up and share your darkroom</a></p>
+                </div>
+            </div>
+
+        </div>
+
+        <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#mycarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+
+    </div>
+    <br>
+    <a onclick="$('#anchor1').animatescroll();"><button type="button" id="anchor1Button" class="btn btn-link btn-block"><img src="css/img/arrow-down_64.png"></button></a>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="container marketing" id="anchor1">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="img-rounded" data-src="holder.js/140x140" src="css/img/find.png" style="width: 140px; height: 140px;">
+            <h2>Find</h2>
+            <p>Are you an enthusiastic of analog photography? Looking for a darkroom to develop your films or print your photos? Then why are you waiting? Start looking for darkrooms around you.</p>
+            <p><a class="btn btn-large btn-info" href="#en/mapdashboard">Find a darkroom</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <img class="img-rounded" data-src="holder.js/140x140" src="css/img/edit.png" style="width: 140px; height: 140px;">
+            <h2>Edit</h2>
+            <p>You've already entered a darkroom? You can edit, delete or insert other reports by accessing your private area.</p>
+            <p><a class="btn btn-large btn-success" href="#en/login">LogIn and manage</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <img class="img-rounded" data-src="holder.js/140x140" src="css/img/share.png" style="width: 140px; height: 140px;">
+            <h2>Share</h2>
+            <p>Are you a fan of analog photography? Do you own a darkroom and like to share your space with other photographers? Don’t wait, register now and start sharing your darkroom.</p>
+            <p><a class="btn btn-large btn-warning" href="#en/registration">Register and share</a></p>
+        </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+    <br>
+    <a onclick="$('#anchor2').animatescroll();"><button type="button" id="anchor2Button" class="btn btn-link btn-block"><img src="css/img/arrow-down_64.png"></button></a>
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="featurette1" id="anchor2">
+        <img src="css/img/gratis.png" class="img-responsive img-rounded pull-right" style="width: 280px;">
+        <h2 class="featurette-heading">DarkRoom Locator.<br><span class="text-muted">is free.</span></h2>
+        <p class="lead">With darkroom locator you can find darkrooms near you and start right away to develop and print your camera roll, Free!</p>
+        <p><a class="btn btn-large btn-success" href="#en/project">View project details</a></p>
+    </div>
+    <br>
+    <a onclick="$('#anchor3').animatescroll();"><button type="button" id="anchor3Button" class="btn btn-link btn-block"><img src="css/img/arrow-down_64.png"></button></a>
+
+    <hr class="featurette-divider">
+
+    <div class="featurette2" id="anchor3">
+        <img src="css/img/simple.png" class="img-responsive img-rounded pull-left" style="width: 280px;">
+        <h2 class="featurette-heading text-right">DarkRoom Locator.<br><span class="text-muted">is simple.</span></h2>
+        <p class="lead text-right">Looking for a darkroom has never been easier, through a fast and intuitive search based on Google Maps (TM) technology.</p>
+        <p class="text-right"><a class="btn btn-large btn-info" href="#en/mapdashboard">Find a darkroom</a></p>
+    </div>
+    <br>
+    <a onclick="$('#anchor4').animatescroll();"><button type="button" id="anchor4Button" class="btn btn-link btn-block"><img src="css/img/arrow-down_64.png"></button></a>
+
+    <hr class="featurette-divider">
+
+    <div class="featurette3" id="anchor4">
+        <img src="css/img/speed.png" class="img-responsive img-rounded pull-right" style="width: 280px;">
+        <h2 class="featurette-heading">DarkRoom Locator.<br><span class="text-muted">is fast.</span></h2>
+        <p class="lead">Sharing your darkroom with other photographers has never been so fast, thanks to node.js stack used to make browsing and searching virtually instantaneous.</p>
+        <p><a class="btn btn-large btn-warning" href="#en/credits">Discover the tech</a></p>
+    </div>
+    <br>
+    <a onclick="$('#anchor0').animatescroll();"><button type="button" id="anchor0Button" class="btn btn-link btn-block"><img src="css/img/arrow-up_64.png"></button></a>
+
+    <!-- /END THE FEATURETTES -->
+
+</div>
+<br><br>

@@ -1,0 +1,187 @@
+/** google maps **/
+/** FIX for Bootstrap and Google Maps Info window styes problem **/
+/*
+img[src*="gstatic.com/"], img[src*="googleapis.com/"] {
+    max-width: none;
+}
+#map_canvas{
+    display: block;
+    width: 100%;
+}
+#map_canvas_report{
+    display: block;
+    width: 100%;
+}
+*/
+
+/* Fix Google Maps canvas
+ *
+ * Wrap your Google Maps embed in a `.google-map-canvas` to reset Bootstrap's
+ * global `box-sizing` changes. You may optionally need to reset the `max-width`
+ * on images in case you've applied that anywhere else. (That shouldn't be as
+ * necessary with Bootstrap 3 though as that behavior is relegated to the
+ * `.img-responsive` class.)
+ */
+#map_canvas,
+#map_canvas * { .box-sizing(content-box); }
+
+#map_canvas_report,
+#map_canvas_report * { .box-sizing(content-box); }
+
+/* Optional responsive image override */
+img { max-width: none; }
+
+/** custom header style **/
+h1.lead { border-bottom: 1px dotted #ccc; margin-bottom: 20px; }
+h2.lead { border-bottom: 1px dotted #ccc; margin-bottom: 20px; }
+h3.lead { border-bottom: 1px dotted #ccc; margin-bottom: 20px; }
+h4.lead { border-bottom: 1px dotted #ccc; margin-bottom: 20px; }
+h5.lead { border-bottom: 1px dotted #ccc; margin-bottom: 20px; }
+h6.lead { margin-bottom: 20px; }
+
+.reportscroll{
+    overflow-y:scroll;
+    font-size: 12px;
+}
+
+/** navbar **/
+.navbar {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    /**background-color: #eeeeee;   **/
+    background-color: #333333;
+    /**border-radius: 4px;  **/
+}
+
+.navbar-nav>li>a {
+color: #e53d50;
+}
+.navbar-nav>li>a:hover {
+color: #eeeeee;
+}
+
+/** MARKETING CONTENT **/
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.marketing h2 {
+    font-weight: normal;
+}
+.marketing .col-lg-4 p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/** Featurettes **/
+
+.featurette-divider {
+    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette1 {
+    padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+    overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    margin-top:-20px;
+    padding:25px;
+    background:rgb(22, 145, 190)
+}
+.featurette2 {
+    padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+    overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    margin-top:-20px;
+    padding:25px;
+    background:rgb(233, 147, 26)
+}
+.featurette3 {
+    padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+    overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    margin-top:-20px;
+    padding:25px;
+    background:#d43f3a
+}
+.featurette-image {
+    margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+/* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.featurette-image.pull-left {
+    margin-right: 40px;
+}
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+
+/** sticky footer **/
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+    height: 60px;
+}
+#footer {
+    border-top: 1px solid #e5e5e5;
+    padding: 10px 0;
+    background-color: #f5f5f5;
+}
+#footer p {
+    margin-bottom: 0;
+    color: #777;
+}
+#footer-links {
+    margin: 10px 0;
+}
+#footer-links li {
+    display: inline;
+    padding: 0 2px;
+}
+#footer-links li:first-child {
+    padding-left: 0;
+}
+
+.imageUploaded {
+    width: 60px;
+    min-height: 60px;
+    max-height: auto;
+    float: left;
+    margin: 3px;
+    padding: 3px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
