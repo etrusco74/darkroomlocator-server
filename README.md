@@ -1,6 +1,6 @@
 # DARKROOMLOCATOR-SERVER
 
-Server side software of darkroomlocator:
+Server side software of darkroomlocator
 
 * What is darkroom locator?
 
@@ -9,16 +9,19 @@ Darkroom Locator is a project born and developed thanks to [analogica.it](http:/
 It's a project completely free, non-profit and designed with the most modern and high-performance technologies available today.
 
 *What is the purpose of the project?
+
 The aim of the project is to facilitate and encourage the meeting between no darkroom professional photographers or amateurs and analog photo enthusiasts owing a darkroom (in garage, in the attic, in the bathroom, commercial, ... )
 
 We believe that this synergy can only be good for silver-based photography as a whole, enabling and facilitating the exchange of ideas, information and knowledge on techniques and practices related to developing and printing in the darkroom.
 
 *Tech Spec
+
 data base - mongoDB | mongoose.js | mongoHQ
 server side - node.js | express.js | heroku
 client side - jquery | backbone.js | twitter bootstrap | google maps
 
 *Licence
+
 This software is released under MIT License (MIT)
 
 Alessandro (etrusco) De Marchi
