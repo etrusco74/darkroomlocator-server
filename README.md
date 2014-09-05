@@ -1,6 +1,6 @@
 # DARKROOMLOCATOR-SERVER
 
-Server side software of darkroomlocator
+Server side software of [darkroomlocator](http://www.darkroomlocator.com/) - find and share darkrooms
 
 ## What is darkroom locator?
 
