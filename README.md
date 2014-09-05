@@ -3,6 +3,7 @@
 Server side software of darkroomlocator:
 
 * What is darkroom locator?
+
 Darkroom Locator is a project born and developed thanks to [analogica.it](http://www.analogica.it), the first Italian community dedicated to analogue photography.
 
 It's a project completely free, non-profit and designed with the most modern and high-performance technologies available today.
