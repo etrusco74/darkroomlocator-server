@@ -18,7 +18,7 @@ We believe that this synergy can only be good for silver-based photography as a 
 
 You can find the architecture at this [url] (http://www.pensando.it/wp/2014/06/tech/anatomia-di-una-node-js-webapp-realizzata-con-mongodb-node-js-e-backbone-js)
 
-This post is in italian
+This post and the document is in italian
 
 ##  Tech Spec
 
