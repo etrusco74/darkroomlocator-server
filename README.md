@@ -1,20 +1,24 @@
-# README for a newly created project....!
+# DARKROOMLOCATOR-SERVER
 
-There are a couple of things you should do first, before you can use all of Git's power:
+Server side software of darkroomlocator:
 
-  * Add a remote to this project: in the Cloud9 IDE command line, you can execute the following commands
-    `git remote add [remote name] [remote url (eg. 'git@github.com:/ajaxorg/node_chat')]` [Enter]
-  * Create new files inside your project
-  * Add them to to Git by executing the following command
-    `git add [file1, file2, file3, ...]` [Enter]
-  * Create a commit which can be pushed to the remote you just added
-    `git commit -m 'added new files'` [Enter]
-  * Push the commit the remote
-    `git push [remote name] master` [Enter]
+*What is darkroom locator?
+Darkroom Locator is a project born and developed thanks to [analogica.it](http://www.analogica.it), the first Italian community dedicated to analogue photography.
 
-That's it! If this doesn't work for you, please visit the excellent resources from [Github.com](http://help.github.com) and the [Pro Git](http://http://progit.org/book/) book.
-If you can't find your answers there, feel free to ask us via Twitter (@cloud9ide), [mailing list](groups.google.com/group/cloud9-ide) or IRC (#cloud9ide on freenode).
+It's a project completely free, non-profit and designed with the most modern and high-performance technologies available today.
 
-Happy coding!
+*What is the purpose of the project?
+The aim of the project is to facilitate and encourage the meeting between no darkroom professional photographers or amateurs and analog photo enthusiasts owing a darkroom (in garage, in the attic, in the bathroom, commercial, ... )
 
-New line
+We believe that this synergy can only be good for silver-based photography as a whole, enabling and facilitating the exchange of ideas, information and knowledge on techniques and practices related to developing and printing in the darkroom.
+
+*Tech Spec
+data base - mongoDB | mongoose.js | mongoHQ
+server side - node.js | express.js | heroku
+client side - jquery | backbone.js | twitter bootstrap | google maps
+
+*Licence
+This software is released under MIT License (MIT)
+
+Alessandro (etrusco) De Marchi
+[http://www.pensando.it](http://www.pensando.it)
