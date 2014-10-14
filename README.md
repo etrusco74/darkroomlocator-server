@@ -20,6 +20,8 @@ You can find the architecture at this [url] (http://www.pensando.it/wp/2014/06/t
 
 This post and the document is in italian
 
+You can find RESTful api documentation at this [url] (http://docs.darkroomlocator.apiary.io/)
+
 ##  Tech Spec
 
 data base - mongoDB | mongoose.js | mongoHQ
