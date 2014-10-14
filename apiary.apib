@@ -10,7 +10,9 @@ User related resources of the **darkroomlocator API**
 ## /login
 ### POST
 
-Login *public*
+Login, create session and obtain authKey to sign private method
+
+*public method*
 
 + Request (application/json)
 
@@ -21,8 +23,8 @@ Login *public*
     + Body
     
             {
-                "username": "sadmaster",
-                "password": "sandrino"
+                "username": "utente",
+                "password": "prova"
             } 
 
 + Response 200 (application/json)
