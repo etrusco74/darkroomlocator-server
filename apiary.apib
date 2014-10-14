@@ -2,46 +2,42 @@ FORMAT: 1A
 HOST: http://www.darkroomlocator.com/api
 
 # darkroomlocator
-Notes API is a *short texts saving* service similar to its physical paper presence on your table.
+*RESTful* API of darkroomlocator webapp
 
-# Group Notes
-Notes related resources of the **Notes API**
+# Group User 
+User related resources of the **darkroomlocator API**
 
-## Notes Collection [/notes]
-### List all Notes [GET]
-+ Response 200 (application/json)
+## /login
+### POST
 
-        [{
-          "id": 1, "title": "Jogging in park"
-        }, {
-          "id": 2, "title": "Pick-up posters from post-office"
-        }]
+Login *public*
 
-### Create a Note [POST]
 + Request (application/json)
-
-        { "title": "Buy cheese and bread for breakfast." }
-
-+ Response 201 (application/json)
-
-        { "id": 3, "title": "Buy cheese and bread for breakfast." }
-
-## Note [/notes/{id}]
-A single Note object with all its details
-
-+ Parameters
-    + id (required, number, `1`) ... Numeric `id` of the Note to perform action with. Has example value.
-
-### Retrieve a Note [GET]
-+ Response 200 (application/json)
 
     + Header
 
-            X-My-Header: The Value
-
+            lang: it
+    
     + Body
+    
+            {
+                "username": "sadmaster",
+                "password": "sandrino"
+            } 
 
-            { "id": 2, "title": "Pick-up posters from post-office" }
++ Response 200 (application/json)
 
-### Remove a Note [DELETE]
-+ Response 204
+        {
+          "sbe": [
+            {
+              "codVettore": 1,
+              "codSbe": 1,
+              "descrizioneSbe": "Biglietto Integrato Piemonte",
+              "descrizioneVettore": "TRENITALIA"
+            }
+          ],
+          "identifySession": "MTAuMTAwLjEzMy4xODB8fFRQTC1BTVYtMDU3NTMxfHwxNDEyNjg3NjQyNDE2",
+          "resultCode": 200,
+          "resultDesc": "OK",
+          "lang": "it"
+        }
