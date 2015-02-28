@@ -25,8 +25,18 @@ img[src*="gstatic.com/"], img[src*="googleapis.com/"] {
 #map_canvas,
 #map_canvas * { .box-sizing(content-box); }
 
+#map_canvas img {
+    max-width: none !important;
+    box-shadow: none !important;
+}
+
 #map_canvas_report,
 #map_canvas_report * { .box-sizing(content-box); }
+
+#map_canvas_report img {
+    max-width: none !important;
+    box-shadow: none !important;
+}
 
 /* Optional responsive image override */
 img { max-width: none; }
